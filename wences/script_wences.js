@@ -52,12 +52,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   const images = [
-"/wences/img/lixo_01.jpg",
-"/wences/img/lixo_02.jpg",
-"/wences/img/lixo_03.jpg",
-"/wences/img/lixo_04.jpg",
-"/wences/img/lixo_05.jpg",
-"/wences/img/lixo_06.jpg",
+"img/lixo_01.jpg",
+"img/lixo_02.jpg",
+"img/lixo_03.jpg",
+"img/lixo_04.jpg",
+"img/lixo_05.jpg",
+"img/lixo_06.jpg",
 
   ];
 
@@ -120,3 +120,4 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   }
 });
+
