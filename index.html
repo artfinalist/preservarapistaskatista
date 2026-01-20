@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preserve a pista skatista</title>
+    <!-- Link para a folha de estilos externa -->
+    <link rel="stylesheet" href="style_index.css" />
+    <!-- Font Awesome para ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <img src="img/logo.png" id="logo" />
+      <div id="logo-container"></div>
+      <nav class="main-nav">
+        <button id="mobile-menu-btn" aria-label="Abrir menu">
+          <i class="fa fa-bars"></i>
+        </button>
+        <!-- Lista de links da navegação -->
+        <ul id="nav-links">
+          <li><a href="/index/index.html">HOME</a></li>
+          <li><a href="#WENCES">AÇÕES</a></li>
+          <li><a href="#sobre">SOBRE</a></li>
+          <li><a href="#parceiros">PARCEIROS</a></li>
+          <li><a href="#contato">CADASTRE-SE</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+      <section id="home" class="section">
+        <h2>Bem Vindo</h2>
+        <p>
+          o projeto tem como objetivo reunir voluntários para preservar, limpar
+          e manter a conservação das pistas de skate da cidade de curitiba.
+          Nossa pesquisa apontou que existe uma necessidade de limpeza e
+          preservação dos entornos das pistas de skate de curitiba que
+          massivamente é utilizado por crianças jovens menores. E que a maioria não possui lixeiras ou locais destinados para.
+        </p>
+      </section>
+
+      <section id="WENCES" class="section">
+        <h2>Nossas Ações</h2>
+        <div class="gallery">
+          <div class="gallery-item">
+            <a href="/wences/wences.html">
+              <img src="/img/pista_01.jpg" alt="wences" />
+              <p>WENCES</p>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="/pab/pab.html">
+              <img src="/img/pista_02.jpg" alt="pab" />
+              <p>PAB</p>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <img src="/img/pista_03.jpg" alt="parigot" />
+            <p>PARIGOT</p>
+          </div>
+          <div class="gallery-item">
+            <img src="/img/pista_04.jpg" alt="Sta Rita" />
+            <p>STA RITA</p>
+          </div>
+          <div class="gallery-item">
+            <img src="/img/pista_05.jpg" alt="CIC" />
+            <p>CIC</p>
+          </div>
+          <div class="gallery-item">
+            <img src="/img/pista_06.jpg" alt="Outras Acoes"
+            />
+            <p>OUTRAS AÇÕES</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="section">
+        <h2>NOSSA VISÃO</h2>
+        <p>
+          Somos skatistas apaixonados por esse estilo de vida que é o skate.
+          além de um esporte e além de um meio de expressão e cultura.
+
+          <br>Acreditamos que a preservação das pistas de skate é fundamental para
+          manter a chama acesa.
+        </p>
+      </section>
+
+      <section id="parceiros" class="section">
+        <h2>Seja nosso parceiro</h2>
+        <p>parceiros</p>
+        <div class="parceiros">
+          <div class="parceiros">
+            <img src="/img/parceiros.jpg" alt="Parceiros" />
+          </div>
+      </section>
+
+      <section id="contato" class="section">
+        <h2>Cadastre-se</h2>
+        <p>
+          Deseja ser voluntário. Preencha o formulário e cadastre-se, entraremos
+          em contato.
+        </p>
+        <!-- Formulário de Contato -->
+        <form action="#" method="POST" class="contact-form">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Enviar Mensagem</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="main-footer">
+      <div class="social-icons">
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <p style="margin-top: 20px">
+        &copy; 2026 Layoutize. Todos os direitos reservados.
+      </p>
+    </footer>
+
+    <script type="module" src="script_index.js"></script>
+  </body>
+</html>

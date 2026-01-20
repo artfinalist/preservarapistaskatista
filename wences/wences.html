@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preserve a pista skatista</title>
+    <!-- Link para a folha de estilos externa -->
+    <link rel="stylesheet" href="style_wences.css" />
+    <!-- Font Awesome para ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <img src="img/logo.png" id="logo" />
+      <div id="logo-container"></div>
+      <nav class="main-nav">
+        <button id="mobile-menu-btn" aria-label="Abrir menu">
+          <i class="fa fa-bars"></i>
+        </button>
+        <!-- Lista de links da navegação -->
+        <ul id="nav-links">
+          <li><a href="/index/index.html">HOME</a></li>
+          <li><a href="/index/index.html#WENCES">AÇÕES</a></li>
+          <li><a href="/index/index.html#SOBRE">SOBRE</a></li>
+          <li><a href="/index/index.html#parceiros">PARCEIROS</a></li>
+          <li><a href="#contato">CADASTRE-SE</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+      <section>
+        <p>
+          Simulação de Ação de limpeza e preservação realizada na pista de skate
+          do Wenceslau Braz em Curitiba-PR. Durante a ação, voluntários se
+          reuniram para coletar lixo, varrer áreas comuns e conscientizar os
+          frequentadores sobre a importância de manter o local limpo. Foram
+          recolhidos diversos tipos de resíduos, incluindo bitucas de cigarros,
+          embagalens plásticas e outros detritos, locais reclaman a falta de um
+          local proprio de descarte.
+        </p>
+      </section>
+      <div class="gallery-container">
+        <div class="image-wrapper">
+          <a href="#" class="open-carousel" data-image="img/1.png">
+            <img src="/wences/img/lixo_01.jpg" alt="01_logo" />
+            <p>Antes da Limpeza</p>
+          </a>
+        </div>
+
+        
+        <div class="image-wrapper">
+          <a href="#" class="open-carousel" data-image="img/2.png">
+            <img src="/wences/img/lixo_02.jpg" alt="02_logo" />
+            <p>Chegada dos voluntários</p>
+          </a>
+        </div>
+
+
+        <div class="image-wrapper">
+          <a href="#" class="open-carousel" data-image="img/3.png">
+            <img src="/wences/img/lixo_03.jpg" alt="03_logo" />
+          <p>Durante a ação dos voluntários</p>
+          </a>
+        </div>
+        
+        
+        <div class="image-wrapper">
+          <a href="#" class="open-carousel" data-image="img/4.png">
+            <img src="/wences/img/lixo_04.jpg" alt="04_logo" />
+            <p>Durante a ação dos voluntários</p>
+          </a>
+        </div>
+
+        <div class="image-wrapper">
+          <a href="#" class="open-carousel" data-image="img/5.png">
+            <img src="/wences/img/lixo_05.jpg" alt="05_logo" />
+            <p>Resultado da ação</p>
+          </a>
+        </div>
+
+        <div class="image-wrapper">
+          <a href="#" class="open-carousel" data-image="img/6.png">
+            <img src="/wences/img/lixo_06.jpg" alt="06_logo" />
+            <p>Agradecimento aos pais e voluntário</p>
+          </a>
+        </div>
+      </div>
+
+
+      <section id="sobre" class="section">
+      
+        <p>
+          
+        </p>
+
+
+
+      <section id="contato" class="section">
+        <h2>Cadastre-se</h2>
+        <p>
+          Deseja ser voluntário. Preencha o formulário e cadastre-se, entraremos
+          em contato.
+        </p>
+        <!-- Formulário de Contato -->
+        <form action="#" method="POST" class="contact-form">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Enviar Mensagem</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="main-footer">
+      <div class="social-icons">
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <p style="margin-top: 20px">
+        &copy; Preserve a Natureza.
+      </p>
+    </footer>
+
+    <script type="module" src="script_wences.js"></script>
+  </body>
+</html>
